@@ -7,7 +7,7 @@
 :TEAMS_VERSION: 1.0
 :imagesdir: images
 
-+
+
 image::nflLogo.png[alt=logo,width=250px][orietation=landscape]
 ## What is the teams website
 It is a location to log all NFL teams
