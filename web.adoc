@@ -16,6 +16,8 @@ The site is hosted on netlify
 ## What programming languages were utilized
 - HTML, CSS, JavaScript
 
+## Application Environment Details
+
 [grid="rows",format="csv"]
 [oiptions="header",cols="^,<,<s,<,>m"]
 |===========================
