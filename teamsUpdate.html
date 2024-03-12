@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams Add</title>
+
+    <!--Stylesheet-->
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <!--Bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="home-button">
+                <button class="btn btn-secondary" onclick="window.location.href='teams.html'">Home</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="pages-text-center">Teams Update Screen</h1>
+    </div>
+
+    <form class="form">
+        <div class="form-group">
+            <label for="id"><b>ID:</b></label>
+            <select name="id" id="id">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="teamname"><b>Team Name:</b></label>
+            <input name="teamname" id="teamname" type="text" class="form-control" placeholder="Input Team Name">
+        </div>
+        <div class="form-group">
+            <label for="teamcity"><b>Team City:</b></label>
+            <input name="teamcity" id="teamcity" type="text" class="form-control" placeholder="Input Team City">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+        </div>
+    </form>
+
+    </div>
+
+
+
+
+
+</body>
+
+<!-- CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+
+
+<!-- This is for toast messages-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="./js/jquery.toaster.js"></script>
+
+<!--Put API-->
+<script src="./js/putTeams.js"></script>
+
+
+</html>
