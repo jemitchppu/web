@@ -28,4 +28,4 @@ SiteName,Host,URL,Status,Version
 |===========================
 
 ## GitHub Branching Strategy
-image::diagram.png[alt=logo,width=250px][orietation=landscape]
+image::diagram.png[alt=logo,width=500px][orietation=landscape]
