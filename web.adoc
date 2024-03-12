@@ -1,0 +1,10 @@
+# Teams API website
+
+## What is the teams website
+It is a location to log all NFL teams
+
+## How is the site hosted
+The site is hosted on netlify
+
+## What programming languages were utilized
+- HTML, CSS, JavaScript
