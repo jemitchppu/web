@@ -26,3 +26,6 @@ The site is hosted on netlify
 SiteName,Host,URL,Status,Version
 `{TEAMS_SITE}`,`{TEAMS_HOST}`,`{TEAMS_URL}`,`{TEAMS_STATUS}`,`{TEAMS_VERSION}`
 |===========================
+
+## GitHub Branching Strategy
+image::diagram.png[alt=logo,width=250px][orietation=landscape]
